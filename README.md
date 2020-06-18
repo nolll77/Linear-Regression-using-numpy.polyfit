@@ -88,7 +88,7 @@ By looking at the whole data set, you can intuitively tell that there must be a 
 ![scatter plot spread](https://drive.google.com/uc?id=1l8Wk1PbzspDu39r1UpyifJhsCjFmJ1nb)
 
 
-Anyway, let’s fit a line to our data set — using linear regression:
+Anyway, let’s fit a line to our data set - using linear regression :
 ![linear regression fitted line](https://drive.google.com/uc?id=1xfTijZu8u1PtfQ9xOsF0k0aHDtJNVVKC)
 
 
