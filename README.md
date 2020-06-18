@@ -42,6 +42,7 @@ If you put all the x–y value pairs on a graph, you’ll get a straight line :
 
 ![linear function example](https://drive.google.com/uc?id=1u2AP2hR2aluIQrdNAtBEbf0Fav_1Dd8B)
 The relationship between x and y is linear.
+![linear function example](https://drive.google.com/file/d/1u2AP2hR2aluIQrdNAtBEbf0Fav_1Dd8B/view?usp=sharing)
 
 Using the equation of this specific line `(y = 2 * x + 5)`, if you change `x` by `1`, `y` will always change by `2`.
 
