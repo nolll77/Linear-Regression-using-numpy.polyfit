@@ -36,9 +36,10 @@ when x is... | y is...
 4 | 2*4 + 5 = 13
 ...
 
-If you put all the x–y value pairs on a graph, you’ll get a straight line :
-
+If you put all the `x`–`y` value pairs on a graph, you’ll get a straight line :
 ![linear function example](https://drive.google.com/uc?id=1u2AP2hR2aluIQrdNAtBEbf0Fav_1Dd8B)
+
+
 The relationship between x and y is linear.
 
 
@@ -52,9 +53,10 @@ In the linear function formula:
 
 * The `a` variable is often called slope because – indeed – it defines the slope of the red line.
 * The `b` variable is called the intercept. b is the value where the plotted line intersects the y-axis. (Or in other words, the value of `y` is `b` when `x = 0`.)
-
 ![linear function example slope intercept](https://drive.google.com/uc?id=1IhIT-_CrztXVGW7PJCjuROcv0K0u0yia)
-This is all you have to know about linear functions for now…
+
+
+This is all you have to know about linear functions for now...
 
 
 **But why did we talk so much about them?**
@@ -73,8 +75,7 @@ We have 20 students in a class and we have data about a specific exam they have 
 
 * The **X axis** shows how many hours a student studied for the exam
 * The **Y axis** shows the scores that she eventually got
-
-![linear function example](https://drive.google.com/uc?id=https://drive.google.com/file/d/1ec76ma1WGX0AgRbtuJQvlysp2bx8g5SN)
+![linear function example](https://drive.google.com/uc?id=1ec76ma1WGX0AgRbtuJQvlysp2bx8g5SN)
 
 
 E.g. she studied 24 hours and her test result was 58% :
@@ -83,13 +84,11 @@ E.g. she studied 24 hours and her test result was 58% :
 We have 20 data points (20 students) here.
 
 
-By looking at the whole data set, you can intuitively tell that there must be a correlation between the two factors. If one studies more, she’ll get better results on her exam. But you can see the natural variance, too. For instance, these 3 students who studied for ~30 hours got very different scores: 74%, 65% and 40%.
-
+By looking at the whole data set, you can intuitively tell that there must be a correlation between the two factors. If one studies more, she’ll get better results on her exam. But you can see the natural variance, too. For instance, these 3 students who studied for ~30 hours got very different scores: 74%, 65% and 40%
 ![scatter plot spread](https://drive.google.com/uc?id=1l8Wk1PbzspDu39r1UpyifJhsCjFmJ1nb)
 
 
 Anyway, let’s fit a line to our data set — using linear regression:
-
 ![linear regression fitted line](https://drive.google.com/uc?id=1xfTijZu8u1PtfQ9xOsF0k0aHDtJNVVKC)
 
 
@@ -188,7 +187,6 @@ For instance, in our case study above, you had data about students studying for 
 E.g. your model would say that someone who has studied `x = 80` hours would get:
 
 > y = 2.01*80 - 3.9 = 159% on the test
-
 ![extrapolate issue](https://drive.google.com/uc?id=https://drive.google.com/file/d/1dB4AIpaY6BLAQhSw-yPKAIP8iPt25E4c)
 
 
