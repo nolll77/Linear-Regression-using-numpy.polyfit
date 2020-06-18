@@ -61,7 +61,7 @@ This is all you have to know about linear functions for now...
 
 **But why did we talk so much about them?**
 
-**Because linear regression is nothing else but finding the exact linear function equation (that is : finding the** `a` **and ** `b` **values in the** `y = a*x + b` **formula) that fits your data points the best.**
+**Because linear regression is nothing else but finding the exact linear function equation (that is : finding the** `a` **and** `b` **values in the** `y = a*x + b` **formula) that fits your data points the best.**
 
 Note : Here’s some advice if you are not 100% sure about the math. The most intuitive way to understand the linear function formula is to play around with its values. Change the a and b variables above, calculate the new x-y value pairs and draw the new graph. Repeat this as many times as necessary. (Tip: try out what happens when `a = 0` or `b = 0`!) By seeing the changes in the value pairs and on the graph, sooner or later, everything will fall into place.
 
