@@ -186,7 +186,7 @@ For instance, in our case study above, you had data about students studying for 
 E.g. your model would say that someone who has studied `x = 80` hours would get :
 
 > y = 2.01*80 - 3.9 = 159% on the test
-![extrapolate issue](https://drive.google.com/uc?id=https://drive.google.com/file/d/1dB4AIpaY6BLAQhSw-yPKAIP8iPt25E4c)
+![extrapolate issue](https://drive.google.com/uc?id=1dB4AIpaY6BLAQhSw-yPKAIP8iPt25E4c)
 
 
 ...but 100% is the obvious maximum, right ?
