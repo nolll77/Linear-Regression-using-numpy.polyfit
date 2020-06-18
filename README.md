@@ -79,8 +79,8 @@ We have 20 students in a class and we have data about a specific exam they have 
 
 
 E.g. she studied 24 hours and her test result was 58% :
-
 ![linear regression scatter plot example one student](https://drive.google.com/uc?id=1zcw5sQ1-j-FyX3cFc0XdVyedPyREQZz1)
+
 We have 20 data points (20 students) here.
 
 
@@ -134,10 +134,10 @@ If your input value is `x = 1`, your output value will be `y = -1.89`.
 
 But in machine learning these x-y value pairs have many alternative names… which can cause some headaches. So here are a few common synonyms that you should know:
 
-* **input variable (`x`) – output variable (`y`)
-* **independent variable (`x`) – dependent variable (`y`)
-* **predictor variable (`x`) – predicted variable (`y`)
-* **feature (`x`) – target (`y`)
+* **input variable (**`x`**) – output variable (**`y`**)**
+* **independent variable (**`x`**) – dependent variable (**`y`**)**
+* **predictor variable (**`x`**) – predicted variable (**`y`**)**
+* **feature (**`x`**) – target (**`y`**)**
 
 See, the confusion is not an accident… But at least, now you have your linear regression dictionary here.
 
@@ -147,18 +147,17 @@ Having a mathematical formula – even if it doesn’t 100% perfectly fit your d
 
 1. **Predictions** : Based on your linear regression model, if a student tells you how much she studied for the exam, you can come up with a pretty good estimate: you can predict her results even before she writes the test. Let’s say someone studied 20 hours; it means that her predicted test result will be `2.01 * 20 - 3.9 = 36.3`.
 
-2. **Outliers** : If something unexpected shows up in your dataset – someone is way too far from the expected range…
-
+2. **Outliers** : If something unexpected shows up in your dataset – someone is way too far from the expected range...
 ![outlier detection with linear regression](https://drive.google.com/uc?id=1XSH-mDKrxluHUZn0ih2Zb4oGrTKaChA_)
 
 
-… let’s say, someone who studied only 18 hours but got almost 100% on the exam… Well, that student is either a genius — or a cheater. But she’s definitely worth the teachers’ attention, right? 🙂 By the way, in machine learning, the official name of these data points is **outliers**.
+...let’s say, someone who studied only 18 hours but got almost 100% on the exam… Well, that student is either a genius - or a cheater. But she’s definitely worth the teachers’ attention, right? 🙂 By the way, in machine learning, the official name of these data points is **outliers**.
 
-And both of these examples can be translated very easily to real life business use-cases, too!
+And both of these examples can be translated very easily to real life business use-cases, too !
 
-**Predictions** are used for: sales predictions, budget estimations, in manufacturing/production, in the stock market and in many other places. (Although, usually these fields use more sophisticated models than simple linear regression.)
+**Predictions** are used for : sales predictions, budget estimations, in manufacturing/production, in the stock market and in many other places. (Although, usually these fields use more sophisticated models than simple linear regression.)
 
-Finding outliers is great for fraud detection. And it’s widely used in the fintech industry. (E.g. preventing credit card fraud.)
+Finding outliers is great for fraud detection. And it’s widely used in the fintech industry. (E.g. preventing credit card fraud).
 
 # The limitations of machine learning models
 
@@ -166,7 +165,7 @@ It’s good to know that even if you find a very well-fitting model for your dat
 
 Note : These are true for essentially all machine learning algorithms — not only for linear regression.
 
-**Limitation #1 : a model is never a perfect fit
+**Limitation #1 : a model is never a perfect fit**
 
 As I said, fitting a line to a dataset is always an abstraction of reality. Describing something with a mathematical formula is sort of like reading the short summary of Romeo and Juliet. You’ll get the essence… but you will miss out on all the interesting, exciting and charming details. 
 
@@ -176,23 +175,23 @@ But in many business cases, that can be a good thing. Your mathematical model wi
 
 Note : One big challenge of being a data scientist is to find the right balance between a too-simple and an overly complex model — so the model can be as accurate as possible. (This problem even has a name: bias-variance tradeoff, and I’ll write more about this in a later article.)
 
-**But a machine learning model – by definition – will never be 100% accurate.
+**But a machine learning model - by definition – will never be 100% accurate.**
 
-**Limitation #2 : you can’t go beyond the range of your historical data
+**Limitation #2 : you can’t go beyond the range of your historical data**
 
 Many data scientists try to extrapolate their models and go beyond the range of their data.
 
 For instance, in our case study above, you had data about students studying for 0-50 hours. The dataset hasn’t featured any student who studied 60, 80 or 100 hours for the exam. These values are out of the range of your data. If you wanted to use your model to predict test results for these “extreme” `x` values... well you would get nonsensical `y` values :
 
-E.g. your model would say that someone who has studied `x = 80` hours would get:
+E.g. your model would say that someone who has studied `x = 80` hours would get :
 
 > y = 2.01*80 - 3.9 = 159% on the test
 ![extrapolate issue](https://drive.google.com/uc?id=https://drive.google.com/file/d/1dB4AIpaY6BLAQhSw-yPKAIP8iPt25E4c)
 
 
-...but 100% is the obvious maximum, right?
+...but 100% is the obvious maximum, right ?
 
-**The point is that you can’t extrapolate your regression model beyond the scope of the data that you have used creating it. Well, in theory, at least...
+**The point is that you can’t extrapolate your regression model beyond the scope of the data that you have used creating it. Well, in theory, at least...**
 
 Because I have to admit, that in real life data science projects, sometimes, there is no way around it. If you have data about the last 2 years of sales — and you want to predict the next month, you have to extrapolate. Even so, we always try to be very careful and don’t look too far into the future. The further you get from your historical data, the worse your model’s accuracy will be.
 
@@ -202,7 +201,7 @@ Okay, now that you know the theory of linear regression, it’s time to learn ho
 
 Let’s see how you can fit a simple linear regression model to a data set !
 
-Well, in fact, there is more than one way of implementing linear regression in Python. Here, I’ll present my favorite — and in my opinion the most elegant — solution. I’ll use `numpy` and its `polyfit` method.
+Well, in fact, there is more than one way of implementing linear regression in Python. Here, I’ll present my favorite - and in my opinion the most elegant — solution. I’ll use `numpy` and its `polyfit` method.
 
 We will go through these 6 steps:
 
@@ -213,4 +212,4 @@ We will go through these 6 steps:
 5. Interpreting the results (coefficient, intercept) and calculating the accuracy of the model
 6. Visualization (plotting a graph)
 
-You might ask : “Why isn’t Tomi using `sklearn` in this tutorial?” I know that (in online tutorials at least) `Numpy` and its `polyfit` method is less popular than the Scikit-learn alternative… true. But in my opinion, `numpy`‘s `polyfit` is more elegant, easier to learn — and easier to maintain in production ! `sklearn`‘s linear regression function changes all the time, so if you implement it in production and you update some of your packages, it can easily break. I don’t like that. Besides, the way it’s built and the extra data-formatting steps it requires seem somewhat strange to me. In my opinion, sklearn is highly confusing for people who are just getting started with Python machine learning algorithms. (By the way, I had the `sklearn` LinearRegression solution in this tutorial... but I removed it. That’s how much I don’t like it. So trust me, you’ll like `numpy` + `polyfit` better, too. :-))
+You might ask : “Why isn’t Tomi using `sklearn` in this tutorial?” I know that (in online tutorials at least) `Numpy` and its `polyfit` method is less popular than the Scikit-learn alternative… true. But in my opinion, `numpy`‘s `polyfit` is more elegant, easier to learn - and easier to maintain in production ! `sklearn`‘s linear regression function changes all the time, so if you implement it in production and you update some of your packages, it can easily break. I don’t like that. Besides, the way it’s built and the extra data-formatting steps it requires seem somewhat strange to me. In my opinion, sklearn is highly confusing for people who are just getting started with Python machine learning algorithms. (By the way, I had the `sklearn` LinearRegression solution in this tutorial... but I removed it. That’s how much I don’t like it. So trust me, you’ll like `numpy` + `polyfit` better, too).
