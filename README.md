@@ -40,10 +40,10 @@ when x is…                y is…
 
 If you put all the x–y value pairs on a graph, you’ll get a straight line :
 
-![linear function example](https://drive.google.com/file/d/1u2AP2hR2aluIQrdNAtBEbf0Fav_1Dd8B/view?usp=sharing)
+![linear function example](https://drive.google.com/uc?id=1u2AP2hR2aluIQrdNAtBEbf0Fav_1Dd8B)
 The relationship between x and y is linear.
 
-Using the equation of this specific line `<(y = 2 * x + 5)>`, if you change `<x>` by `<1>`, `<y>` will always change by `<2>`.
+Using the equation of this specific line `(y = 2 * x + 5)`, if you change `x` by `1`, `y` will always change by `2`.
 
 And it doesn’t matter what a and b values you use, your graph will always show the same characteristics: it will always be a straight line, only its position and slope change. It also means that x and y will always be in linear relationship.
 
