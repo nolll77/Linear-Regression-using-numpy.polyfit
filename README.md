@@ -4,13 +4,13 @@ I always say that learning linear regression in Python is the best first step to
 
 In this tutorial, I’ll show you everything you’ll need to know about it: the mathematical background, different use-cases and most importantly the implementation. We will do that in Python — by using numpy (polyfit).
 
-Note: This is a hands-on tutorial. I highly recommend doing the coding part with me! If you haven’t done so yet, you might want to go through these articles first:
+Note: This is a hands-on tutorial. I highly recommend doing the coding part with me! If you haven’t done so yet, you might want to go through these articles first :
 
 The mathematical background
 
-**Here’s a quick recap!**
+**Quick recap !**
 
-For linear functions, we have this formula:
+For linear functions, we have this formula :
 
 > y = a*x + b
 
@@ -52,7 +52,7 @@ In the linear function formula:
 > y = a*x + b
 
 * The `a` variable is often called slope because – indeed – it defines the slope of the red line.
-* The `b` variable is called the intercept. b is the value where the plotted line intersects the y-axis. (Or in other words, the value of `y` is `b` when `x = 0`.)
+* The `b` variable is called the intercept. `b` is the value where the plotted line intersects the y-axis (in other words, the value of `y` is `b` when `x = 0`).
 ![linear function example slope intercept](https://drive.google.com/uc?id=1IhIT-_CrztXVGW7PJCjuROcv0K0u0yia)
 
 
@@ -61,7 +61,7 @@ This is all you have to know about linear functions for now...
 
 **But why did we talk so much about them?**
 
-**Because linear regression is nothing else but finding the exact linear function equation (that is : finding the `a` and `b` values in the `y = a*x + b` formula) that fits your data points the best.**
+**Because linear regression is nothing else but finding the exact linear function equation (that is : finding the** `a` **and ** `b` **values in the** `y = a*x + b` **formula) that fits your data points the best.**
 
 Note : Here’s some advice if you are not 100% sure about the math. The most intuitive way to understand the linear function formula is to play around with its values. Change the a and b variables above, calculate the new x-y value pairs and draw the new graph. Repeat this as many times as necessary. (Tip: try out what happens when `a = 0` or `b = 0`!) By seeing the changes in the value pairs and on the graph, sooner or later, everything will fall into place.
 
